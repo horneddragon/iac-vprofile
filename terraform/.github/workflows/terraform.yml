@@ -58,7 +58,7 @@
 #        - name: Terraform plan status 
 #          if: steps.plan.outcome == 'failure'  
 #          run: exit 1      
-
+name: "Vprofile IAC"
 on:
   push:
     branches:
